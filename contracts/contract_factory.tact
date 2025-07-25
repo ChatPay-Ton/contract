@@ -1,4 +1,4 @@
-import "./contract_test.tact";
+import "./contract_escrow";
 
 message(0x1f58bf48) CreateEscrow {
     client: Address;

@@ -42,7 +42,7 @@ contract Escrow(
         // Retorna um status simples para leitura externa:
         // 0 = esperando
         // 1 = cliente confirmou
-        // 2 = prestador confirmou
+        // 2 = profissional confirmou
         // 3 = ambos confirmaram
         let sum = (self.isClientConfirmed ? 1 : 0) + (self.isProviderConfirmed ? 2 : 0);
         return sum;
